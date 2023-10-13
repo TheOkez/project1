@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
   res.send('Welcome it Works!')
 })
 
-app.get('/', (req, res) => {
+app.get('/api', (req, res) => {
   res.send('Hello World!')
 })
 
